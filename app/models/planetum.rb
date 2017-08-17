@@ -1,0 +1,2 @@
+class Planetum < ApplicationRecord
+end

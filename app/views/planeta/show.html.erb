@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @planetum.Nombre %>
+</p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @planetum.Descripcion %>
+</p>
+
+<%= link_to 'Edit', edit_planetum_path(@planetum) %> |
+<%= link_to 'Back', planeta_path %>
